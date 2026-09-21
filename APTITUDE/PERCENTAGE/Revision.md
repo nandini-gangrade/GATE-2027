@@ -992,4 +992,2159 @@ Percentage increase = (1.36 − 1) × 100
 Use this when a value becomes less than its original value.
 
 ```text
-Percentage
+Percentage decrease = (1 − Multiplier) × 100
+```
+
+### Example 1
+
+A value becomes 0.7 times its original value.
+
+```text
+Percentage decrease = (1 − 0.7) × 100
+                   = 30%
+```
+
+**Answer: 30% decrease**
+
+### Example 2
+
+A value becomes 0.67 times its original value.
+
+```text
+Percentage decrease = (1 − 0.67) × 100
+                   = 33%
+```
+
+**Answer: 33% decrease**
+
+### Example 3
+
+A value becomes 0.956 times its original value.
+
+```text
+Percentage decrease = (1 − 0.956) × 100
+                   = 4.4%
+```
+
+**Answer: 4.4% decrease**
+
+### Important trap
+
+```text
+0.7 = 70% of the original value
+```
+
+It does **not** mean a 70% decrease.
+
+The decrease is:
+
+```text
+100% − 70% = 30%
+```
+
+---
+
+# 8. PERCENTAGE CHANGE VS PERCENTAGE DIFFERENCE
+
+These concepts are often confused.
+
+---
+
+## 8.1 Percentage change
+
+Use this when comparing a value before and after a change.
+
+### Formula
+
+```text
+Percentage change = ((Final − Initial) / Initial) × 100
+```
+
+The initial value is the reference.
+
+### Example
+
+A price increases from ₹80 to ₹100.
+
+```text
+Percentage increase = ((100 − 80) / 80) × 100
+                   = 25%
+```
+
+**Answer: 25% increase**
+
+---
+
+## 8.2 Percentage difference
+
+Use this when comparing two values and the question specifies a reference value.
+
+### Formula
+
+```text
+Percentage difference = (Absolute difference / Reference value) × 100
+```
+
+```text
+Absolute difference = |Value 1 − Value 2|
+```
+
+### Example
+
+Two values are 80 and 100.
+
+The difference is:
+
+```text
+Difference = 100 − 80
+           = 20
+```
+
+If the reference value is 100:
+
+```text
+Percentage difference = (20 / 100) × 100
+                      = 20%
+```
+
+**Answer: 20%**
+
+### Important distinction
+
+If the reference is 80:
+
+```text
+Percentage difference = (20 / 80) × 100
+                      = 25%
+```
+
+The result changes because the reference changes.
+
+> Always identify the denominator before calculating a percentage.
+
+---
+
+## 8.3 Percentage points vs percentage change
+
+This is a common trap.
+
+Suppose an interest rate increases from 20% to 30%.
+
+### Change in percentage points
+
+```text
+Percentage-point change = 30% − 20%
+                        = 10 percentage points
+```
+
+### Relative percentage increase
+
+```text
+Percentage increase = ((30 − 20) / 20) × 100
+                    = 50%
+```
+
+Therefore:
+
+```text
+20% → 30%
+
+Change = 10 percentage points
+Relative increase = 50%
+```
+
+These are not the same.
+
+---
+
+# 9. SUCCESSIVE PERCENTAGE CHANGES
+
+Successive changes occur when a quantity changes multiple times.
+
+Examples:
+
+* Salary increases by 20% and then by 10%.
+* Price decreases by 10% and then increases by 20%.
+* Population increases by 15% for two consecutive years.
+
+---
+
+## 9.1 Safest formula: Multiply the multipliers
+
+Use this for any number of successive changes.
+
+```text
+Final value = Initial value × Multiplier 1 × Multiplier 2 × ...
+```
+
+### Example
+
+A value of 1,000 increases by 20% and then decreases by 10%.
+
+First change:
+
+```text
+Multiplier 1 = 1.2
+```
+
+Second change:
+
+```text
+Multiplier 2 = 0.9
+```
+
+Therefore:
+
+```text
+Final value = 1000 × 1.2 × 0.9
+            = 1080
+```
+
+Net change:
+
+```text
+Net change = 1080 − 1000
+           = 80
+```
+
+```text
+Net percentage change = (80 / 1000) × 100
+                     = 8%
+```
+
+**Answer: 8% increase**
+
+---
+
+## 9.2 Shortcut formula for two successive changes
+
+For two successive percentage changes of `a%` and `b%`:
+
+```text
+Net percentage change = a + b + (ab / 100)
+```
+
+Here, use signs:
+
+* Increase = positive.
+* Decrease = negative.
+
+### Example 1: Two increases
+
+A value increases by 20% and then by 10%.
+
+```text
+a = 20
+b = 10
+
+Net change = 20 + 10 + (20 × 10)/100
+           = 30 + 2
+           = 32%
+```
+
+**Answer: 32% increase**
+
+### Example 2: Increase followed by decrease
+
+A value increases by 20% and then decreases by 10%.
+
+```text
+a = 20
+b = −10
+
+Net change = 20 − 10 + (20 × −10)/100
+           = 10 − 2
+           = 8%
+```
+
+**Answer: 8% increase**
+
+### Example 3: Two decreases
+
+A value decreases by 20% and then by 10%.
+
+```text
+a = −20
+b = −10
+
+Net change = −20 − 10 + ((−20) × (−10))/100
+           = −30 + 2
+           = −28%
+```
+
+**Answer: 28% decrease**
+
+---
+
+## 9.3 Same percentage increase and decrease
+
+Suppose a value increases by `x%` and then decreases by `x%`.
+
+### Formula
+
+```text
+Net loss = x² / 100
+```
+
+### Example
+
+A value increases by 20% and then decreases by 20%.
+
+```text
+Net loss = 20² / 100
+         = 400 / 100
+         = 4%
+```
+
+**Answer: 4% decrease**
+
+### Multiplier method
+
+```text
+Final multiplier = 1.2 × 0.8
+                 = 0.96
+```
+
+Only 96% remains.
+
+```text
+Loss = 100% − 96%
+     = 4%
+```
+
+### Why isn't the net change zero?
+
+Suppose the original value is 100.
+
+After a 20% increase:
+
+```text
+100 × 1.2 = 120
+```
+
+After a 20% decrease:
+
+```text
+120 × 0.8 = 96
+```
+
+The final value is 96, not 100.
+
+The second 20% is calculated on 120, not on the original 100.
+
+---
+
+## 9.4 Three or more successive changes
+
+Use the multiplier method.
+
+### Example
+
+A quantity increases by 10%, then by 20%, and finally decreases by 30%.
+
+```text
+Final multiplier = 1.1 × 1.2 × 0.7
+                 = 0.924
+```
+
+Therefore:
+
+```text
+Net change = (0.924 − 1) × 100
+           = −7.6%
+```
+
+**Answer: 7.6% decrease**
+
+### Important trap
+
+Do not simply add:
+
+```text
+10 + 20 − 30 = 0
+```
+
+That would be incorrect because the changes are applied to different values.
+
+---
+
+## 9.5 Successive discounts
+
+Successive discounts follow the same multiplier rule.
+
+### Example
+
+A product has two successive discounts of 20% and 10%.
+
+```text
+Final multiplier = 0.8 × 0.9
+                 = 0.72
+```
+
+The customer pays 72% of the marked price.
+
+```text
+Equivalent discount = 100% − 72%
+                    = 28%
+```
+
+**Answer: 28% equivalent discount**
+
+---
+
+# 10. FINDING THE ORIGINAL VALUE
+
+This is an important GATE question type.
+
+Use this when the final value is given and you need to find the value before a percentage change.
+
+---
+
+## 10.1 Formula: Original value after an increase
+
+If a value increases by `r%`:
+
+```text
+New value = Original value × (1 + r/100)
+```
+
+Therefore:
+
+```text
+Original value = New value / (1 + r/100)
+```
+
+### Example
+
+A number increases by 20% and becomes 600. Find the original number.
+
+### Step 1: Find the multiplier
+
+```text
+Multiplier = 1 + 20/100
+           = 1.2
+```
+
+### Step 2: Divide by the multiplier
+
+```text
+Original = 600 / 1.2
+         = 6000 / 12
+         = 500
+```
+
+**Answer: 500**
+
+### Mental shortcut: Percentage method
+
+After a 20% increase:
+
+```text
+120% = 600
+```
+
+Therefore:
+
+```text
+100% = (600 × 100) / 120
+     = 500
+```
+
+---
+
+## 10.2 Formula: Original value after a decrease
+
+If a value decreases by `r%`:
+
+```text
+New value = Original value × (1 − r/100)
+```
+
+Therefore:
+
+```text
+Original value = New value / (1 − r/100)
+```
+
+### Example
+
+A number decreases by 20% and becomes 480. Find the original number.
+
+```text
+Multiplier = 1 − 20/100
+           = 0.8
+```
+
+```text
+Original = 480 / 0.8
+         = 4800 / 8
+         = 600
+```
+
+**Answer: 600**
+
+### Mental shortcut
+
+After a 20% decrease:
+
+```text
+80% = 480
+```
+
+Therefore:
+
+```text
+100% = (480 × 100) / 80
+     = 600
+```
+
+---
+
+## 10.3 Reverse percentage using fractions
+
+This is particularly useful for mental calculations.
+
+### Example 1: Reverse a 25% increase
+
+A value becomes 1,000 after a 25% increase.
+
+```text
+25% increase = ×1.25
+             = ×5/4
+```
+
+To reverse the change:
+
+```text
+Original = 1000 × 4/5
+         = 800
+```
+
+**Answer: 800**
+
+---
+
+### Example 2: Reverse a 25% decrease
+
+A value becomes 450 after a 25% decrease.
+
+```text
+25% decrease = ×0.75
+             = ×3/4
+```
+
+To reverse the change:
+
+```text
+Original = 450 × 4/3
+         = 600
+```
+
+**Answer: 600**
+
+---
+
+### Example 3: Reverse a 12.5% decrease
+
+A value becomes 700 after a 12.5% decrease.
+
+```text
+12.5% decrease = ×7/8
+```
+
+Therefore:
+
+```text
+Original = 700 × 8/7
+         = 800
+```
+
+**Answer: 800**
+
+---
+
+## 10.4 Reverse successive changes
+
+Reverse the multipliers in reverse order.
+
+### Example
+
+A value increases by 20% and then decreases by 10%. The final value is 1,080. Find the original value.
+
+Forward calculation:
+
+```text
+Final = Original × 1.2 × 0.9
+```
+
+Therefore:
+
+```text
+Original = 1080 / (1.2 × 0.9)
+         = 1080 / 1.08
+         = 1000
+```
+
+**Answer: 1,000**
+
+### Important trap
+
+If the value increases by 20%, do not subtract 20% from the final value to reverse it.
+
+You must divide by `1.2`.
+
+---
+
+# 11. MORE THAN AND LESS THAN
+
+This is a classic percentage trap.
+
+The percentage changes when the reference value changes.
+
+---
+
+## 11.1 A is x% more than B
+
+Suppose:
+
+```text
+A is x% more than B
+```
+
+### Formula
+
+```text
+A = B × (1 + x/100)
+```
+
+To find how much less B is than A:
+
+```text
+Percentage by which B is less than A
+= [x / (100 + x)] × 100
+```
+
+### Example: A is 25% more than B
+
+Assume:
+
+```text
+B = 100
+```
+
+Then:
+
+```text
+A = 100 + 25% of 100
+  = 125
+```
+
+Now compare B with A.
+
+```text
+Difference = 125 − 100
+           = 25
+```
+
+The reference is A, which is 125.
+
+```text
+Percentage decrease = (25 / 125) × 100
+                    = 20%
+```
+
+Therefore:
+
+```text
+If A is 25% more than B,
+B is 20% less than A.
+```
+
+### Shortcut
+
+```text
+25% more → 25/125 × 100 = 20% less
+```
+
+---
+
+## 11.2 A is x% less than B
+
+Suppose:
+
+```text
+A is x% less than B
+```
+
+### Formula
+
+```text
+A = B × (1 − x/100)
+```
+
+To find how much more B is than A:
+
+```text
+Percentage by which B is more than A
+= [x / (100 − x)] × 100
+```
+
+### Example: A is 20% less than B
+
+Assume:
+
+```text
+B = 100
+```
+
+Then:
+
+```text
+A = 100 − 20
+  = 80
+```
+
+Difference:
+
+```text
+Difference = 100 − 80
+           = 20
+```
+
+The reference is A, which is 80.
+
+```text
+Percentage increase = (20 / 80) × 100
+                    = 25%
+```
+
+Therefore:
+
+```text
+If A is 20% less than B,
+B is 25% more than A.
+```
+
+---
+
+## 11.3 Quick conversion table
+
+| Given statement       | Equivalent reverse statement |
+| --------------------- | ---------------------------- |
+| A is 10% more than B  | B is 9.09% less than A       |
+| A is 20% more than B  | B is 16.67% less than A      |
+| A is 25% more than B  | B is 20% less than A         |
+| A is 50% more than B  | B is 33.33% less than A      |
+| A is 100% more than B | B is 50% less than A         |
+| A is 10% less than B  | B is 11.11% more than A      |
+| A is 20% less than B  | B is 25% more than A         |
+| A is 25% less than B  | B is 33.33% more than A      |
+| A is 50% less than B  | B is 100% more than A        |
+
+### Important trap
+
+```text
+A is 25% more than B
+```
+
+does not mean:
+
+```text
+B is 25% less than A
+```
+
+The reference values are different.
+
+---
+
+# 12. PERCENTAGE APPLICATIONS IN GATE
+
+Percentage questions can appear in many forms.
+
+---
+
+## 12.1 Marks and examination questions
+
+### Type 1: Find percentage marks
+
+A student scores 72 marks out of 90.
+
+```text
+Percentage = (72 / 90) × 100
+           = 80%
+```
+
+**Answer: 80%**
+
+---
+
+### Type 2: Find marks from percentage
+
+A student scores 75% in an examination of 800 marks.
+
+```text
+Marks = (75 / 100) × 800
+      = 600
+```
+
+**Answer: 600 marks**
+
+---
+
+### Type 3: Percentage increase in marks
+
+A student's marks increase from 60 to 75.
+
+```text
+Increase = 75 − 60
+         = 15
+```
+
+```text
+Percentage increase = (15 / 60) × 100
+                    = 25%
+```
+
+**Answer: 25% increase**
+
+### Trap
+
+The denominator is the original marks, not the final marks.
+
+---
+
+## 12.2 Income and expenditure
+
+These questions often combine percentages with ratios.
+
+### Example
+
+A person's income is ₹20,000.
+
+They spend 70% of their income.
+
+Find their savings.
+
+```text
+Expenditure = 70% of 20000
+            = 14000
+```
+
+```text
+Savings = Income − Expenditure
+        = 20000 − 14000
+        = 6000
+```
+
+**Answer: ₹6,000**
+
+Savings as a percentage of income:
+
+```text
+Savings percentage = (6000 / 20000) × 100
+                   = 30%
+```
+
+### Important trap
+
+If expenditure increases by 20%, savings do not necessarily decrease by 20%.
+
+You must calculate the new expenditure and then subtract it from income.
+
+---
+
+## 12.3 Ratio-based percentage questions
+
+Suppose:
+
+```text
+A : B = 3 : 5
+```
+
+### A as a percentage of B
+
+```text
+Percentage = (3 / 5) × 100
+           = 60%
+```
+
+### A as a percentage of the total
+
+Total parts:
+
+```text
+3 + 5 = 8
+```
+
+```text
+Percentage = (3 / 8) × 100
+           = 37.5%
+```
+
+### Important distinction
+
+```text
+A as a percentage of B = 60%
+```
+
+But:
+
+```text
+A as a percentage of total = 37.5%
+```
+
+The reference changes.
+
+---
+
+## 12.4 Part of a part
+
+This type of question involves multiplying percentages.
+
+### Example
+
+Find 20% of 30% of 500.
+
+First calculate 30% of 500:
+
+```text
+30% of 500 = 150
+```
+
+Then calculate 20% of 150:
+
+```text
+20% of 150 = 30
+```
+
+**Answer: 30**
+
+### Shortcut
+
+```text
+20% × 30% = 0.2 × 0.3
+          = 0.06
+          = 6%
+```
+
+Therefore:
+
+```text
+6% of 500 = 30
+```
+
+### Formula
+
+```text
+x% of y% of N = (x/100) × (y/100) × N
+```
+
+---
+
+# 13. PROFIT, LOSS, DISCOUNT, AND TAX
+
+These topics frequently use percentage calculations.
+
+---
+
+## 13.1 Profit percentage
+
+### Definitions
+
+```text
+Cost Price (CP) = Price at which an item is purchased
+Selling Price (SP) = Price at which an item is sold
+```
+
+```text
+Profit = Selling Price − Cost Price
+```
+
+### Formula
+
+```text
+Profit percentage = (Profit / Cost Price) × 100
+```
+
+### Example
+
+An item is purchased for ₹800 and sold for ₹920.
+
+```text
+Profit = 920 − 800
+       = 120
+```
+
+```text
+Profit percentage = (120 / 800) × 100
+                  = 15%
+```
+
+**Answer: 15% profit**
+
+---
+
+## 13.2 Loss percentage
+
+### Formula
+
+```text
+Loss = Cost Price − Selling Price
+```
+
+```text
+Loss percentage = (Loss / Cost Price) × 100
+```
+
+### Example
+
+An item is purchased for ₹800 and sold for ₹680.
+
+```text
+Loss = 800 − 680
+     = 120
+```
+
+```text
+Loss percentage = (120 / 800) × 100
+                = 15%
+```
+
+**Answer: 15% loss**
+
+---
+
+## 13.3 Discount percentage
+
+### Definitions
+
+```text
+Marked Price (MP) = Listed price
+Selling Price (SP) = Price after discount
+```
+
+```text
+Discount = Marked Price − Selling Price
+```
+
+### Formula
+
+```text
+Discount percentage = (Discount / Marked Price) × 100
+```
+
+### Example
+
+An item marked at ₹1,000 is sold for ₹800.
+
+```text
+Discount = 1000 − 800
+         = 200
+```
+
+```text
+Discount percentage = (200 / 1000) × 100
+                    = 20%
+```
+
+**Answer: 20% discount**
+
+---
+
+## 13.4 Successive discounts
+
+### Example
+
+A product receives two discounts of 20% and 10%.
+
+```text
+First multiplier = 0.8
+Second multiplier = 0.9
+```
+
+```text
+Final multiplier = 0.8 × 0.9
+                 = 0.72
+```
+
+The customer pays 72% of the original price.
+
+```text
+Equivalent discount = 100% − 72%
+                    = 28%
+```
+
+**Answer: 28%**
+
+---
+
+## 13.5 Tax and GST-style calculations
+
+### Formula: Price after tax
+
+```text
+Final price = Original price × (1 + Tax rate/100)
+```
+
+### Example
+
+A product costs ₹1,000 before 18% tax.
+
+```text
+Final price = 1000 × 1.18
+            = ₹1180
+```
+
+---
+
+### Formula: Price before tax
+
+If the final price includes tax:
+
+```text
+Original price = Final price / (1 + Tax rate/100)
+```
+
+### Example
+
+A product costs ₹1,180 including 18% tax.
+
+```text
+Original price = 1180 / 1.18
+               = ₹1000
+```
+
+### Trap
+
+If tax is already included in the price, do not subtract 18% from the final price.
+
+You must divide by `1.18`.
+
+---
+
+# 14. RATIOS AND PERCENTAGES
+
+Ratios and percentages are closely related.
+
+---
+
+## 14.1 Convert a ratio into a percentage
+
+If:
+
+```text
+A : B = 2 : 5
+```
+
+Then A as a percentage of B is:
+
+```text
+A/B × 100 = 2/5 × 100 = 40%
+```
+
+---
+
+## 14.2 Percentage distribution from a ratio
+
+Suppose three people divide money in the ratio:
+
+```text
+A : B : C = 2 : 3 : 5
+```
+
+Total parts:
+
+```text
+2 + 3 + 5 = 10
+```
+
+### A's share
+
+```text
+A's percentage = 2/10 × 100
+               = 20%
+```
+
+### B's share
+
+```text
+B's percentage = 3/10 × 100
+               = 30%
+```
+
+### C's share
+
+```text
+C's percentage = 5/10 × 100
+               = 50%
+```
+
+---
+
+## 14.3 Percentage change in a ratio
+
+Suppose A increases by 20% and B increases by 10%.
+
+Original ratio:
+
+```text
+A : B
+```
+
+New ratio:
+
+```text
+1.2A : 1.1B
+```
+
+Therefore:
+
+```text
+New ratio = 1.2/1.1 × A/B
+```
+
+### Example
+
+Original ratio A:B = 2:3.
+
+A increases by 20% and B increases by 10%.
+
+```text
+New ratio = (2 × 1.2) : (3 × 1.1)
+          = 2.4 : 3.3
+          = 8 : 11
+```
+
+**Answer: 8:11**
+
+### Trap
+
+If both quantities change, apply their respective multipliers before simplifying the ratio.
+
+---
+
+# 15. POPULATION AND GROWTH PROBLEMS
+
+## 15.1 Population growth
+
+### Formula
+
+```text
+New population = Original population × (1 + Growth rate/100)
+```
+
+### Example
+
+A town has a population of 20,000. Its population increases by 15%.
+
+```text
+New population = 20000 × 1.15
+               = 23000
+```
+
+**Answer: 23,000**
+
+---
+
+## 15.2 Population decrease
+
+### Formula
+
+```text
+New population = Original population × (1 − Decrease rate/100)
+```
+
+### Example
+
+A town has a population of 20,000. Its population decreases by 15%.
+
+```text
+New population = 20000 × 0.85
+               = 17000
+```
+
+**Answer: 17,000**
+
+---
+
+## 15.3 Population growth over multiple years
+
+### Formula
+
+```text
+Final population = Initial population × (1 + r/100)^n
+```
+
+Where:
+
+* `r` = annual growth rate.
+* `n` = number of years.
+
+### Example
+
+A town has a population of 10,000. It grows by 10% annually for 2 years.
+
+```text
+Final population = 10000 × (1.1)^2
+                 = 10000 × 1.21
+                 = 12100
+```
+
+**Answer: 12,100**
+
+### Trap
+
+Do not multiply the original population by 20% directly for two years.
+
+The second year's growth is calculated on the increased population.
+
+---
+
+# 16. COMMON GATE TRAPS
+
+## Trap 1: Using the wrong denominator
+
+Question:
+
+> A number increases from 80 to 100. Find the percentage increase.
+
+Incorrect:
+
+```text
+20/100 × 100 = 20%
+```
+
+Correct:
+
+```text
+Percentage increase = 20/80 × 100
+                    = 25%
+```
+
+The initial value is the reference.
+
+---
+
+## Trap 2: Assuming equal increases and decreases cancel
+
+```text
++20% followed by −20% ≠ 0%
+```
+
+Correct result:
+
+```text
+1.2 × 0.8 = 0.96
+```
+
+Therefore:
+
+```text
+4% decrease
+```
+
+---
+
+## Trap 3: Reversing a percentage incorrectly
+
+A value increases by 25%.
+
+To reverse it, do not decrease the final value by 25%.
+
+Correct:
+
+```text
+Original = Final / 1.25
+```
+
+---
+
+## Trap 4: Confusing percentage points with percentage change
+
+A rate changes from 10% to 15%.
+
+```text
+Change in percentage points = 5
+```
+
+```text
+Relative percentage increase = 5/10 × 100 = 50%
+```
+
+---
+
+## Trap 5: Confusing percentage of a quantity with percentage increase
+
+```text
+A is 20% of B
+```
+
+means:
+
+```text
+A = 0.2B
+```
+
+But:
+
+```text
+A is 20% more than B
+```
+
+means:
+
+```text
+A = 1.2B
+```
+
+These are different statements.
+
+---
+
+## Trap 6: Confusing more than and less than
+
+```text
+A is 25% more than B
+```
+
+does not mean:
+
+```text
+B is 25% less than A
+```
+
+Correct:
+
+```text
+B is 20% less than A
+```
+
+---
+
+## Trap 7: Rounding repeating fractions too early
+
+```text
+1/6 = 16.6666...%
+```
+
+Using 16.67% is an approximation.
+
+For exact calculations, use:
+
+```text
+1/6
+```
+
+rather than the rounded percentage.
+
+---
+
+## Trap 8: Adding successive percentages
+
+A quantity increases by 20% and then by 10%.
+
+Incorrect:
+
+```text
+20% + 10% = 30%
+```
+
+Correct:
+
+```text
+1.2 × 1.1 = 1.32
+```
+
+Net increase:
+
+```text
+32%
+```
+
+---
+
+## Trap 9: Tax included in the final price
+
+If the final price includes 18% tax:
+
+```text
+Pre-tax price = Final price / 1.18
+```
+
+Do not simply subtract 18%.
+
+---
+
+## Trap 10: Confusing part-to-part and part-to-whole ratios
+
+If:
+
+```text
+A : B = 3 : 5
+```
+
+Then:
+
+```text
+A as a percentage of B = 3/5 × 100 = 60%
+```
+
+But:
+
+```text
+A as a percentage of total = 3/8 × 100 = 37.5%
+```
+
+---
+
+## Trap 11: Percentage of a negative number
+
+Percentage calculations involving negative values require careful interpretation.
+
+For example, if a quantity changes from `−100` to `−80`, the usual signed percentage-change formula gives:
+
+```text
+Percentage change = ((−80 − (−100)) / −100) × 100
+                  = −20%
+```
+
+The numerical value decreased in magnitude by 20%, but the sign and context matter.
+
+Always interpret the result in the context of the question.
+
+---
+
+## Trap 12: Division by zero
+
+Percentage change relative to an initial value of zero is undefined.
+
+```text
+Percentage change = Change / Initial value × 100
+```
+
+If the initial value is zero, this formula cannot be used.
+
+---
+
+# 17. PRACTICE QUESTIONS
+
+Try solving these without looking at the answers.
+
+The questions cover the major percentage patterns discussed above.
+
+---
+
+## Basic percentage questions
+
+### Q1. Calculate a percentage
+
+A student scores 72 marks out of 90.
+
+Find the percentage.
+
+---
+
+### Q2. Calculate a value
+
+Find 12.5% of 960.
+
+---
+
+### Q3. Find the total
+
+40 is 20% of which number?
+
+---
+
+### Q4. Fraction conversion
+
+Convert 62.5% into a simplified fraction.
+
+---
+
+### Q5. Fraction family
+
+Which fraction is equivalent to 66.67% approximately?
+
+A. 2/3
+B. 3/5
+C. 4/5
+D. 5/6
+
+---
+
+## Multiplier questions
+
+### Q6. Increase
+
+A salary of ₹800 increases by 25%.
+
+Find the new salary.
+
+---
+
+### Q7. Decrease
+
+A price of ₹1,000 decreases by 12.5%.
+
+Find the new price.
+
+---
+
+### Q8. Decimal to percentage
+
+A value becomes 0.64 times its original value.
+
+Find the percentage change.
+
+---
+
+### Q9. Decimal multiplier construction
+
+A quantity increases by 12.5%.
+
+Express the increase multiplier as a fraction.
+
+---
+
+## Successive percentage questions
+
+### Q10. Two successive increases
+
+A quantity increases by 10% and then by 20%.
+
+Find the net percentage increase.
+
+---
+
+### Q11. Increase and decrease
+
+A quantity increases by 20% and then decreases by 20%.
+
+Find the net percentage change.
+
+---
+
+### Q12. Three successive changes
+
+A value increases by 10%, then by 20%, and then decreases by 30%.
+
+Find the net percentage change.
+
+---
+
+### Q13. Successive discounts
+
+A product receives discounts of 25% and 20%.
+
+Find the equivalent discount.
+
+---
+
+## Reverse percentage questions
+
+### Q14. Find the original value
+
+A number increases by 25% and becomes 1,000.
+
+Find the original number.
+
+---
+
+### Q15. Find the original value after a decrease
+
+A number decreases by 20% and becomes 640.
+
+Find the original number.
+
+---
+
+### Q16. Reverse a fraction-based change
+
+A value decreases by 12.5% and becomes 700.
+
+Find the original value.
+
+---
+
+## More than and less than
+
+### Q17. Reverse comparison
+
+A is 25% more than B.
+
+By what percentage is B less than A?
+
+---
+
+### Q18. Reverse comparison
+
+A is 20% less than B.
+
+By what percentage is B more than A?
+
+---
+
+## GATE-style application questions
+
+### Q19. Income and expenditure
+
+A person earns ₹30,000 and spends 70% of their income.
+
+Find their savings.
+
+---
+
+### Q20. Ratio and percentage
+
+A:B = 3:5.
+
+Find A as a percentage of the total.
+
+---
+
+### Q21. Part of a part
+
+Find 30% of 40% of 500.
+
+---
+
+### Q22. Profit
+
+An item is purchased for ₹800 and sold for ₹920.
+
+Find the profit percentage.
+
+---
+
+### Q23. Tax
+
+A product costs ₹1,180 including 18% tax.
+
+Find its price before tax.
+
+---
+
+### Q24. Population
+
+A town has a population of 10,000. It grows by 10% annually for 2 years.
+
+Find the final population.
+
+---
+
+### Q25. Percentage points
+
+An interest rate rises from 20% to 30%.
+
+Find:
+
+1. The change in percentage points.
+2. The relative percentage increase.
+
+---
+
+# 18. PRACTICE ANSWERS
+
+## Basic percentage answers
+
+### Q1
+
+```text
+Percentage = 72/90 × 100
+           = 80%
+```
+
+**Answer: 80%**
+
+---
+
+### Q2
+
+```text
+12.5% = 1/8
+
+12.5% of 960 = 960/8
+             = 120
+```
+
+**Answer: 120**
+
+---
+
+### Q3
+
+```text
+Total = (40 × 100) / 20
+      = 200
+```
+
+**Answer: 200**
+
+---
+
+### Q4
+
+```text
+62.5% = 62.5/100
+      = 625/1000
+      = 5/8
+```
+
+**Answer: 5/8**
+
+---
+
+### Q5
+
+**Answer: A. 2/3**
+
+Because:
+
+```text
+2/3 = 66.666...%
+```
+
+---
+
+## Multiplier answers
+
+### Q6
+
+```text
+New salary = 800 × 1.25
+           = ₹1000
+```
+
+**Answer: ₹1,000**
+
+---
+
+### Q7
+
+```text
+New price = 1000 × 0.875
+          = ₹875
+```
+
+**Answer: ₹875**
+
+---
+
+### Q8
+
+```text
+Percentage decrease = (1 − 0.64) × 100
+                   = 36%
+```
+
+**Answer: 36% decrease**
+
+---
+
+### Q9
+
+```text
+12.5% = 1/8
+
+Increase multiplier = 1 + 1/8
+                    = 9/8
+```
+
+**Answer: 9/8**
+
+---
+
+## Successive percentage answers
+
+### Q10
+
+```text
+Net change = 10 + 20 + (10 × 20)/100
+           = 32%
+```
+
+**Answer: 32% increase**
+
+---
+
+### Q11
+
+```text
+Final multiplier = 1.2 × 0.8
+                 = 0.96
+```
+
+**Answer: 4% decrease**
+
+**Trap:** Equal percentage increase and decrease do not cancel.
+
+---
+
+### Q12
+
+```text
+Final multiplier = 1.1 × 1.2 × 0.7
+                 = 0.924
+```
+
+```text
+Net change = (0.924 − 1) × 100
+           = −7.6%
+```
+
+**Answer: 7.6% decrease**
+
+---
+
+### Q13
+
+```text
+Final multiplier = 0.75 × 0.8
+                 = 0.6
+```
+
+```text
+Equivalent discount = 100% − 60%
+                    = 40%
+```
+
+**Answer: 40% discount**
+
+---
+
+## Reverse percentage answers
+
+### Q14
+
+```text
+Original = 1000 / 1.25
+         = 800
+```
+
+**Answer: 800**
+
+---
+
+### Q15
+
+```text
+Original = 640 / 0.8
+         = 800
+```
+
+**Answer: 800**
+
+---
+
+### Q16
+
+```text
+12.5% decrease = 7/8
+
+Original = 700 × 8/7
+         = 800
+```
+
+**Answer: 800**
+
+---
+
+## More than and less than answers
+
+### Q17
+
+```text
+A = 125, B = 100
+
+Percentage by which B is less than A
+= 25/125 × 100
+= 20%
+```
+
+**Answer: 20% less**
+
+---
+
+### Q18
+
+```text
+B = 100, A = 80
+
+Percentage by which B is more than A
+= 20/80 × 100
+= 25%
+```
+
+**Answer: 25% more**
+
+---
+
+## Application answers
+
+### Q19
+
+```text
+Expenditure = 70% of 30000
+            = 21000
+
+Savings = 30000 − 21000
+        = 9000
+```
+
+**Answer: ₹9,000**
+
+---
+
+### Q20
+
+```text
+A:B = 3:5
+
+Total parts = 3 + 5 = 8
+
+A's percentage = 3/8 × 100
+               = 37.5%
+```
+
+**Answer: 37.5%**
+
+---
+
+### Q21
+
+```text
+30% of 40% of 500
+= 0.3 × 0.4 × 500
+= 60
+```
+
+**Answer: 60**
+
+---
+
+### Q22
+
+```text
+Profit = 920 − 800
+       = 120
+
+Profit percentage = 120/800 × 100
+                  = 15%
+```
+
+**Answer: 15% profit**
+
+---
+
+### Q23
+
+```text
+Price before tax = 1180 / 1.18
+                 = 1000
+```
+
+**Answer: ₹1,000**
+
+---
+
+### Q24
+
+```text
+Final population = 10000 × 1.1²
+                 = 12100
+```
+
+**Answer: 12,100**
+
+---
+
+### Q25
+
+Initial rate = 20%
+
+Final rate = 30%
+
+#### 1. Change in percentage points
+
+```text
+30% − 20% = 10 percentage points
+```
+
+#### 2. Relative percentage increase
+
+```text
+Percentage increase = (30 − 20)/20 × 100
+                    = 50%
+```
+
+**Answers:**
+
+```text
+1. 10 percentage points
+2. 50% relative increase
+```
+
+---
+
+# 🎯 FINAL GATE REVISION STRATEGY
+
+For percentage problems, follow this order:
+
+```text
+1. Identify the reference value.
+2. Decide whether the question asks for:
+   - Percentage
+   - Actual value
+   - Percentage change
+   - Percentage difference
+   - Original value
+   - Successive change
+3. Convert percentages into fractions or multipliers.
+4. Apply the correct formula.
+5. Check whether the answer makes logical sense.
+```
+
+## The five formulas to remember first
+
+```text
+1. Percentage = (Part / Whole) × 100
+```
+
+```text
+2. Value = (Percentage / 100) × Total
+```
+
+```text
+3. New value = Original × (1 ± Percentage/100)
+```
+
+```text
+4. Original = New / Multiplier
+```
+
+```text
+5. Net multiplier = Product of all individual multipliers
+```
+
+## Final mental rules
+
+> **Percentage means per hundred.**
+
+> **The denominator is the reference.**
+
+> **Multiplier greater than 1 means increase.**
+
+> **Multiplier less than 1 means decrease.**
+
+> **Successive percentage changes must be multiplied.**
+
+> **Equal percentage increase and decrease result in a loss.**
+
+> **When reversing a percentage change, divide by the multiplier.**
+
+> **Always distinguish percentage points from percentage change.**
+
+---
+
+*These notes cover the fundamental percentage concepts and common aptitude applications. For actual GATE preparation, supplement them with year-wise PYQs and verify the exact wording and difficulty of questions from the official papers.*
